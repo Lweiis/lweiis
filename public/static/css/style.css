@@ -1,6 +1,16 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%; }
+
+a:link {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
 
 .container-fluid {
   padding: 0; }

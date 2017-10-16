@@ -1,16 +1,33 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .container-fluid {
   padding: 0;
 }
+
 body {
   background-color: #f1f1f1;
 }
+
 body {
   display: none;
 }
+
 header {
   flex-direction: column;
   margin: 0 auto;
@@ -49,14 +66,17 @@ header {
     font-weight: 200;
   }
 }
+
 .flex {
   display: flex;
   display: -webkit-flex;
 }
+
 .all-center {
   justify-content: center;
   align-items: center;
 }
+
 .iconfont {
-    font-size: 25px;
+  font-size: 25px;
 }
