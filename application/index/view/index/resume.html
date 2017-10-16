@@ -6,6 +6,7 @@
   <title>刘东华的小站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="__STATIC__/img/resume.ico">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_443271_sb0mk1jwtbsdobt9.css">
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
@@ -13,21 +14,39 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <h1>个人简历</h1>
-    </div>
+  <div class="container-fluid">
+    <header class="flex all-center col-md-6 col-md-offset-3">
+      <div class="flex all-center">
+        <div class="text">
+          <h3>刘东华 - 个人简历</h3>
+          <p>-。- 放码过来吧~</p>
+          <div class="icons">
+            <a href="">
+              <i class="iconfont icon-custom-wechat"></i>
+            </a>
+            <a href="">
+              <i class="iconfont icon-qq"></i>
+            </a>
+            <a href="">
+              <i class="iconfont icon-github"></i>
+            </a>
+            <a href="">
+              <i class="iconfont icon-mobile"></i>
+            </a>
+          </div>
+        </div>
+        <img id="avatar" src="http://oxxdywlxr.bkt.clouddn.com/17-10-17/615884.jpg" alt="头像">
+      </div>
+    </header>
   </div>
   {js href="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js" /}
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
 </body>
 <script>
-  $(document).ready(function () {
-    var show = function () {
-      $('.container').fadeIn(1000);
-    };
-    setTimeout(show, 2000);
+  window.onload = (function () {
+    $('body').fadeIn(1500);
   });
 </script>
 
