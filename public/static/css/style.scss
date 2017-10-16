@@ -4,7 +4,7 @@ html, body {
 body {
   background: url(/static/img/back.jpg) no-repeat;
   background-size: 120% 120%;
-  // animation: 2s rainbow forwards;
+  animation: 2s rainbow forwards;
 }
 @keyframes rainbow {
   80% {
