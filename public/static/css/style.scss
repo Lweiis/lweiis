@@ -17,18 +17,23 @@ a:visited {
 }
 
 .container-fluid {
-  padding: 0;
+  margin: 3px;
 }
 
 body {
   background-color: #f1f1f1;
   display: none;
 }
-
+.side {
+  border-left: 5px solid #f1f1f1;
+}
+header, article {
+  background: #fff;
+}
 header {
   flex-direction: column;
-  margin: 0 auto;
   height: 150px;
+  margin-bottom: 5px;
   color: #fafafa;
   background-image: url(http://oxxdywlxr.bkt.clouddn.com/17-10-17/76179643.jpg);
   background-position: center;
